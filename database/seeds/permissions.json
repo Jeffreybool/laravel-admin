@@ -1,0 +1,304 @@
+[
+  {
+    "id": 1,
+    "name": "工作台",
+    "parent_id": 0,
+    "route": "dashboard",
+    "is_hidden": 0,
+    "sort": 10,
+    "status": 1
+  },
+  {
+    "id": 2,
+    "name": "系统管理",
+    "parent_id": 0,
+    "route": "system",
+    "is_hidden": 0,
+    "sort": 20,
+    "status": 1,
+    "children": [
+      {
+        "id": 3,
+        "name": "用户管理",
+        "parent_id": 0,
+        "route": "admins",
+        "is_hidden": 0,
+        "sort": 30,
+        "status": 1,
+        "children": [
+          {
+            "id": 4,
+            "name": "添加用户",
+            "parent_id": 3,
+            "route": "admins.create",
+            "is_hidden": 0,
+            "sort": 31,
+            "status": 1
+          },
+          {
+            "id": 5,
+            "name": "查看用户",
+            "parent_id": 3,
+            "route": "admins.show",
+            "is_hidden": 0,
+            "sort": 32,
+            "status": 1
+          },
+          {
+            "id": 6,
+            "name": "编辑用户",
+            "parent_id": 3,
+            "route": "admins.update",
+            "is_hidden": 0,
+            "sort": 33,
+            "status": 1
+          },
+          {
+            "id": 7,
+            "name": "删除用户",
+            "parent_id": 3,
+            "route": "admins.delete",
+            "is_hidden": 0,
+            "sort": 34,
+            "status": 1
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "角色管理",
+        "parent_id": 0,
+        "route": "roles",
+        "is_hidden": 0,
+        "sort": 40,
+        "status": 1,
+        "children": [
+          {
+            "id": 9,
+            "name": "添加角色",
+            "parent_id": 8,
+            "route": "roles",
+            "is_hidden": 0,
+            "sort": 41,
+            "status": 1
+          },
+          {
+            "id": 10,
+            "name": "所有角色",
+            "parent_id": 8,
+            "route": "roles.list",
+            "is_hidden": 0,
+            "sort": 42,
+            "status": 1
+          },
+          {
+            "id": 11,
+            "name": "查看角色",
+            "parent_id": 8,
+            "route": "roles.show",
+            "is_hidden": 0,
+            "sort": 43,
+            "status": 1
+          },
+          {
+            "id": 12,
+            "name": "编辑角色",
+            "parent_id": 8,
+            "route": "roles.update",
+            "is_hidden": 0,
+            "sort": 44,
+            "status": 1
+          },
+          {
+            "id": 13,
+            "name": "编辑角色",
+            "parent_id": 8,
+            "route": "roles.delete",
+            "is_hidden": 0,
+            "sort": 45,
+            "status": 1
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "权限管理",
+        "parent_id": 0,
+        "route": "permissions",
+        "is_hidden": 0,
+        "sort": 50,
+        "status": 1,
+        "children": [
+          {
+            "id": 15,
+            "name": "所有权限",
+            "parent_id": 14,
+            "route": "permissions.list",
+            "is_hidden": 0,
+            "sort": 51,
+            "status": 1
+          },
+          {
+            "id": 16,
+            "name": "添加权限",
+            "parent_id": 14,
+            "route": "permissions.create",
+            "is_hidden": 0,
+            "sort": 52,
+            "status": 1
+          },
+          {
+            "id": 17,
+            "name": "查看权限",
+            "parent_id": 14,
+            "route": "permissions.show",
+            "is_hidden": 0,
+            "sort": 53,
+            "status": 1
+          },
+          {
+            "id": 18,
+            "name": "编辑权限",
+            "parent_id": 14,
+            "route": "permissions.update",
+            "is_hidden": 0,
+            "sort": 54,
+            "status": 1
+          },
+          {
+            "id": 19,
+            "name": "删除权限",
+            "parent_id": 14,
+            "route": "permissions.delete",
+            "is_hidden": 0,
+            "sort": 55,
+            "status": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "内容管理",
+    "parent_id": 0,
+    "route": "content",
+    "is_hidden": 0,
+    "sort": 60,
+    "status": 1,
+    "children": [
+      {
+        "id": 21,
+        "name": "文章管理",
+        "parent_id": 0,
+        "route": "articles",
+        "is_hidden": 0,
+        "sort": 70,
+        "status": 1,
+        "children": [
+          {
+            "id": 22,
+            "name": "所有文章",
+            "parent_id": 21,
+            "route": "articles.list",
+            "is_hidden": 0,
+            "sort": 71,
+            "status": 1
+          },
+          {
+            "id": 23,
+            "name": "添加文章",
+            "parent_id": 21,
+            "route": "articles.create",
+            "is_hidden": 0,
+            "sort": 72,
+            "status": 1
+          },
+          {
+            "id": 24,
+            "name": "查看文章",
+            "parent_id": 21,
+            "route": "articles.show",
+            "is_hidden": 0,
+            "sort": 73,
+            "status": 1
+          },
+          {
+            "id": 25,
+            "name": "编辑文章",
+            "parent_id": 21,
+            "route": "articles.update",
+            "is_hidden": 0,
+            "sort": 74,
+            "status": 1
+          },
+          {
+            "id": 26,
+            "name": "删除文章",
+            "parent_id": 21,
+            "route": "articles.delete",
+            "is_hidden": 0,
+            "sort": 75,
+            "status": 1
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "分类管理",
+        "parent_id": 0,
+        "route": "categorys",
+        "is_hidden": 0,
+        "sort": 80,
+        "status": 1,
+        "children": [
+          {
+            "id": 28,
+            "name": "所有分类",
+            "parent_id": 27,
+            "route": "categorys.list",
+            "is_hidden": 0,
+            "sort": 81,
+            "status": 1
+          },
+          {
+            "id": 29,
+            "name": "添加分类",
+            "parent_id": 27,
+            "route": "categorys.create",
+            "is_hidden": 0,
+            "sort": 82,
+            "status": 1
+          },
+          {
+            "id": 30,
+            "name": "查看分类",
+            "parent_id": 27,
+            "route": "categorys.show",
+            "is_hidden": 0,
+            "sort": 83,
+            "status": 1
+          },
+          {
+            "id": 31,
+            "name": "编辑分类",
+            "parent_id": 27,
+            "route": "categorys.update",
+            "is_hidden": 0,
+            "sort": 84,
+            "status": 1
+          },
+          {
+            "id": 32,
+            "name": "删除分类",
+            "parent_id": 27,
+            "route": "categorys.delete",
+            "is_hidden": 0,
+            "sort": 85,
+            "status": 1
+          }
+        ]
+      }
+    ]
+  }
+]
