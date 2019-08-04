@@ -34,7 +34,7 @@ class TokenProxy
             "provider"      => $provider,
         ];
         $data = array_merge($data, $params);
-        $response = app(Client::class)->post(url('oauth/token'), [
+        $response = (new Client())->post(url('oauth/token'), [
             'form_params' => $data,
             'http_errors' => false,
         ]);

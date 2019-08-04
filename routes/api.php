@@ -13,6 +13,14 @@
 
 
 $api = app('Dingo\Api\Routing\Router');
+
+
+$api->version('v1', function($api) {
+    $api->get("/",function(){
+        return "hello word";
+    });
+});
+
 foreach (glob(app()->basePath('routes/api/*/*.php')) as $filename) {
     include $filename;
 }
